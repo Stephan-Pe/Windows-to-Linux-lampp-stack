@@ -1,4 +1,4 @@
-# Windows 10 End Of Lifetime? Go To Linux Mint 21.3 and create your Lampp Stack with [Xampp for Linux](https://www.apachefriends.org/download.html)
+# Windows 10 End Of Lifetime? Consider switching to Linux Mint 21.3 and create your Lampp Stack with [Xampp for Linux](https://www.apachefriends.org/download.html)
 
 First of all, before you work on your operating system make sure your machine fits the requirements for your target OS. Also make sure you can recover your system with the necessary bitlocker keys [from your Microsoft account](https://account.microsoft.com/account). Backup all your data before doing anything else.
 
@@ -6,8 +6,8 @@ First of all, before you work on your operating system make sure your machine fi
 
 1. Download your preferred Linux edition. [I recommend Linux Mint; it comes with a lot of features out of the box](https://www.linuxmint.com/download.php). There you will find the installation instructions as well.
 2. You will need [Etcher](https://etcher.balena.io/) to create your Boot medium.
-3. Then you have to access the Boot menu. How to do this can be a little different for each machine. In my case, I had to press Enter and then F1.
-4. Disable Secure Boot Mode and change Boot Priority Order to the USB drive you have your installation medium on.
+3. Next, you need to access the Boot menu. The method may vary depending on the machine. For me, it involved pressing Enter followed by F1.
+4. Disable Secure Boot Mode and alter the Boot Priority Order to prioritize the USB drive containing your installation media.
 5. When you boot now, the Linux Mint Live Session starts and you can follow [these steps](https://linuxmint-installation-guide.readthedocs.io/en/latest/install.html) for the installation.
 6. If you need an Editor, SublimeText and VSCode can be installed with the Linux Software Manager.
 7. For the installation of Xampp, I followed the steps on [wikiHow, How to install XAMPP on Linux](https://www.wikihow.com/Install-XAMPP-on-Linux), and it worked perfectly.
