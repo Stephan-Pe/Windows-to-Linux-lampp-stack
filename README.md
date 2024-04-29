@@ -12,7 +12,7 @@ First of all, before you work on your operating system make sure your machine fi
 6. If you need an Editor, SublimeText and VSCode can be installed with the Linux Software Manager.
 7. For the installation of Xampp, I followed the steps on [wikiHow, How to install XAMPP on Linux](https://www.wikihow.com/Install-XAMPP-on-Linux), and it worked perfectly.
 8. When finished, you will find an htdocs folder in `/opt/lampp/`. There you want to create your projects.
-9. To start XAMPP, you have to find `~/.bash_aliases` in the console. It will output `/home/yourname/.bash_aliases`. There you can create your aliases to start and stop XAMPP or start the XAMPP GUI if you need. You can do it like this: `sudo nano /home/yourname/.bash_aliases`. To start the GUI, you can create an alias like `alias xampp-gui="sudo /opt/lampp/manager-linux-x64.run"`. The x64 is because my system is a 64-bit version. Make sure you install the right versions. For start and stop, it is pretty much the same, `/opt/lampp/lampp start` and `/opt/lampp/lampp stop`.
+9. To start XAMPP, you have to find `~/.bash_aliases` in the console. It will output `/home/yourname/.bash_aliases`. There you can create your aliases to start and stop XAMPP or start the XAMPP GUI if you need. You can do it like this: `sudo nano ~/.bash_aliases`. To start the GUI, you can create an alias like `alias xampp-gui="sudo /opt/lampp/manager-linux-x64.run"`. The x64 is because my system is a 64-bit version. Make sure you install the right versions. For start and stop, it is pretty much the same, `/opt/lampp/lampp start` and `/opt/lampp/lampp stop`.
 10. Check in the `~/.bashrc` that this line is present.
 
 
